@@ -19,7 +19,7 @@ BH1750 lightMeter;
 Adafruit_BMP085 bmp;
 WidgetTerminal terminal(V6);
 Motor M1(0x30,_MOTOR_A,1000);   //Motor shiled I2C Address: 0x30
-                                //PWM frequency: 1000Hz(1kHz)
+Motor M2(0x30,_MOTOR_B,1000);   //PWM frequency: 1000Hz(1kHz)
 
 ////////////////////////////////////////////
 // Переменные
