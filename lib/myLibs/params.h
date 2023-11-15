@@ -1,7 +1,7 @@
 ////////////////////////////////////////////
 #define BLYNK_PRINT Serial
 #define DHTTYPE DHT11 
-
+ 
 ////////////////////////////////////////////
 // Пины
 #define DHTPIN    14  // d5 (use pins 3, 4, 5, 12, 13 or 14)
